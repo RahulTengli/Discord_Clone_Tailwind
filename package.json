@@ -1,6 +1,10 @@
 {
+  "name": "Discord_Clone_Tailwind",
+  "homepage": "https://rahultengli.github.io/Discord_Clone_Tailwind/",
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "predeploy": "yarn run build",
+    "deploy":"gh-pages -d build"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
